@@ -1,0 +1,1 @@
+# streamhub-hot-collections

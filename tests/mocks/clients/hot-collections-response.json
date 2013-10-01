@@ -1,0 +1,169 @@
+{
+  "status": "ok",
+  "code": 200,
+  "data": [
+    {
+      "updated": "2013-09-23T12:32:13",
+      "tags": [
+        "apple",
+        "iphone 5s",
+        "iphone 5c",
+        "iphone"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/23\/apples-iphone-5s-and-iphone-5c-sell-9m-units-over-opening-weekend-topping-5m-for-iphone-5-last-year\/",
+      "title": "Apple\u2019s iPhone 5s And iPhone 5c Sell 9M Units Over Opening Weekend, Topping 5M For iPhone 5 Last\u00a0Year",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyMDA5\/init",
+      "heat": 6.38455811297,
+      "siteId": 311145,
+      "articleId": "882009",
+      "id": 47993636
+    },
+    {
+      "updated": "2013-09-24T12:47:45",
+      "tags": [
+        "apple",
+        "imac"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/apple-new-imacs\/",
+      "title": "Apple Updates iMac With New Intel Processors, Speedy 802.11ac Wi-Fi And Faster Flash\u00a0Storage",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyNzIx\/init",
+      "heat": 3.85341193805,
+      "siteId": 311145,
+      "articleId": "882721",
+      "id": 48084932
+    },
+    {
+      "updated": "2013-09-24T10:53:51",
+      "tags": [
+        "android",
+        "apple",
+        "imessage",
+        "techcrunch",
+        "GitHub",
+        "hacker news",
+        "apple id",
+        "ios"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/malware-threat-in-unofficial-android-imessage-app-processing-data-on-chinese-servers\/",
+      "title": "Security Concerns Abound Over Unofficial Android iMessage App That Uses Chinese Servers To Process\u00a0Data",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyNTgw\/init",
+      "heat": 1.82580333503,
+      "siteId": 311145,
+      "articleId": "882580",
+      "id": 48078130
+    },
+    {
+      "updated": "2013-09-24T11:57:20",
+      "tags": [
+        "apple",
+        "touchscreen keyboard",
+        "Swipe",
+        "typing",
+        "ios keyboard",
+        "patents"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/apple-keyboard-swipe-patent\/",
+      "title": "Apple Swipe Keyboard Patent Shows Cupertino Knows Typing On iOS Is\u00a0\u201cTedious\u201d",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyNjA2\/init",
+      "heat": 1.22856340748,
+      "siteId": 311145,
+      "articleId": "882606",
+      "id": 48081257
+    },
+    {
+      "updated": "2013-09-24T13:53:47",
+      "tags": [
+        "practice fusion",
+        "Health",
+        "HealthTech",
+        "EMRs"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/looking-beyond-medical-records-practice-fusion-lands-a-whopping-70m-to-bring-a-big-data-cure-to-the-healthcare-crisis\/",
+      "title": "Practice Fusion Lands A Whopping $70M To Bring A Big Data Cure To The Healthcare\u00a0Crisis",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyNDU3\/init",
+      "heat": 1.03417878262,
+      "siteId": 311145,
+      "articleId": "882457",
+      "id": 48089894
+    },
+    {
+      "updated": "2013-09-24T16:30:52",
+      "tags": [
+        
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/send-in-your-questions-for-ask-a-vc-with-emergence-capital-partners-kevin-spain\/",
+      "title": "Send In Your Questions For Ask A VC With Emergence Capital Partners\u2019 Kevin Spain And Google Ventures\u2019 Krishna\u00a0Yeshwant",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyMjgw\/init",
+      "heat": 0.966083528102,
+      "siteId": 311145,
+      "articleId": "882280",
+      "id": 48103282
+    },
+    {
+      "updated": "2013-09-24T16:17:16",
+      "tags": [
+        "sold",
+        "marketplace",
+        "e-commerce",
+        "Selling",
+        "shopping"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/sold-the-app-that-sells-your-stuff-for-you-arrives-on-android\/",
+      "title": "Sold, The App That Sells Your Stuff For You, Arrives On\u00a0Android",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyODcw\/init",
+      "heat": 0.886061245719,
+      "siteId": 311145,
+      "articleId": "882870",
+      "id": 48101931
+    },
+    {
+      "updated": "2013-09-24T15:00:28",
+      "tags": [
+        "Discovr",
+        "music discovery",
+        "Apps",
+        "recommendations",
+        "ios 7"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/discovr-delivers-total-ios-7-overhaul-for-its-music-disovery-app-with-streaming-and-social-features\/",
+      "title": "Discovr Delivers Total iOS 7 Overhaul For Its Music Discovery App With Streaming And Social\u00a0Features",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyNzg2\/init",
+      "heat": 0.861337617303,
+      "siteId": 311145,
+      "articleId": "882786",
+      "id": 48095527
+    },
+    {
+      "updated": "2013-09-24T12:27:15",
+      "tags": [
+        "app-store",
+        "ranking",
+        "readdle",
+        "top charts"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/download-rate-for-top-ios-7-apps\/",
+      "title": "Developer Finds It Takes Just Under 4K Downloads To Break Top 10 Paid iOS Apps, Over 7K To Rank Fifth And\u00a0Up",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyNjM3\/init",
+      "heat": 0.599095689165,
+      "siteId": 311145,
+      "articleId": "882637",
+      "id": 48082877
+    },
+    {
+      "updated": "2013-09-24T13:34:38",
+      "tags": [
+        "apple",
+        "iphone 5s",
+        "iphone 5",
+        "bom"
+      ],
+      "url": "http:\/\/techcrunch.com\/2013\/09\/24\/apples-iphone-5c-build-costs-start-at-173-entry-level-5s-at-199-according-to-research-firm-ihs\/",
+      "title": "Apple\u2019s iPhone 5c Build Costs Start At $173, Entry-Level 5s At $199, According To Research Firm\u00a0IHS",
+      "initUrl": "\/bs3\/techcrunch.fyre.co\/311145\/ODgyNzYz\/init",
+      "heat": 0.267490441289,
+      "siteId": 311145,
+      "articleId": "882763",
+      "id": 48088256
+    }
+  ]
+}
