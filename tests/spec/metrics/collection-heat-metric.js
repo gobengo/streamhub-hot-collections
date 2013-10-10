@@ -12,6 +12,16 @@ function (jasmine, HeatMetric, Collection) {
             });
             expect(metric instanceof HeatMetric).toBe(true);
         });
+
+        describe('.getCollection', function () {
+            it('returns the Collection of the HeatMetric', function () {
+                var collection = new Collection();
+                var metric = new HeatMetric({
+                    collection: collection
+                });
+                expect(metric.getCollection()).toEqual(collection);
+            });
+        });
     });
 
 });
