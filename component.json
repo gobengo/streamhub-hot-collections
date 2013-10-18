@@ -19,6 +19,7 @@
   },
   "streamhub": {
     "icon": "http://i42.tinypic.com/72vn1l.png",
+    "iconHover": "http://i42.tinypic.com/72vn1l.png",
     "sampleImages": [
       "http://i43.tinypic.com/2iiy3py.jpg",
       "http://i41.tinypic.com/5xio9k.png"
