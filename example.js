@@ -5,6 +5,6 @@ define(function(require) {
         return new HotCollectionsApp({
             el: el,
             network: 'thedailybeast.fyre.co'
-        });
+        }).start();
     };
 });
