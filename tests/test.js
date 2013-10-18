@@ -17,6 +17,8 @@ function (jasmine, jasmineJQuery, $) {
 
     var specs = [];
 
+    specs.push('tests/spec/main');
+
     specs.push('tests/spec/metrics/collection-heat-metric');
 
     specs.push('tests/spec/clients/hot-collections-client');
