@@ -1,11 +1,11 @@
 {
   "name": "streamhub-hot-collections",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": [
     "./src/main.js"
   ],
   "dependencies": {
-    "streamhub-sdk": "git://github.com/Livefyre/streamhub-sdk.git#~v2.0",
+    "streamhub-sdk": "git://github.com/Livefyre/streamhub-sdk.git#~v2.1.1",
     "streamhub-metrics": "git://github.com/Livefyre/streamhub-metrics.git",
     "requirejs": "~2.1.5",
     "requirejs-text": "~2.0.5",
