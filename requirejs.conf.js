@@ -14,10 +14,10 @@ require.config({
   },
   packages: [{
     name: "streamhub-hot-collections",
-    location: "./src"
+    location: "src/"
   },{
     name: "streamhub-hot-collections-tests",
-    location: "./tests"
+    location: "tests/"
   },{
     name: "streamhub-metrics",
     location: "lib/streamhub-metrics/src"
