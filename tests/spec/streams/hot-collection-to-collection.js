@@ -27,6 +27,7 @@ function (jasmine, HotCollectionToCollection, Collection) {
                 expect(collection.siteId).toBe(hotCollection.siteId);
                 expect(collection.articleId).toBe(hotCollection.articleId);
                 expect(collection.heatIndex).toBe(hotCollection.heat);
+                expect(collection.url).toBe(hotCollection.url);
             });
             it('transforms UAT Collections to Collection instances', function () {
                 var hotCollection = {
@@ -52,6 +53,7 @@ function (jasmine, HotCollectionToCollection, Collection) {
                 expect(collection.siteId).toBe(hotCollection.siteId);
                 expect(collection.articleId).toBe(hotCollection.articleId);
                 expect(collection.heatIndex).toBe(hotCollection.heat);
+                expect(collection.url).toBe(hotCollection.url);
             });
         });
     });
