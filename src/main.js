@@ -8,7 +8,7 @@ define([
 
     var HotCollectionsApp = function (opts) {
         opts = opts || {}
-        opts.el = opts.el || document.body.appendChild(document.createElement('div'));
+        opts.el = opts.el || document.createElement('div');
 
         PackageAttribute.decorate(opts.el);
         
