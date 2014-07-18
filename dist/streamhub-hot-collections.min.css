@@ -1,22 +1,21 @@
-
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list {
   width: 400px;
   padding: 2em;
   float: left;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list,
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list * {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list,
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list {
   counter-reset: hub-metric-list;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric {
   display: table;
   margin: 1.5em 0 1.5em 0;
   overflow: hidden;
@@ -24,41 +23,41 @@
   width: 100%;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric-rank {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric-rank {
   display: table-cell;
   font-weight: bold;
   text-align: center;
   width: 4em;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric-rank-value:before {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric-rank-value:before {
   counter-increment: hub-metric-list;
   content: counter(hub-metric-list);
   font-size: 2em;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric-bar-container {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric-bar-container {
   height: 0.8em;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-container {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-container {
   display: table-row;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric-details {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric-details {
   display: table-cell;
   vertical-align: top;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric:first-child {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric:first-child {
   margin-top: 0;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric:last-child {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric:last-child {
   margin-bottom: 0;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric-bar {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric-bar {
   background-color: rgb(19, 127, 229);
   /**
     This is > 100% to account for issue where, because heights are based
@@ -70,7 +69,7 @@
   transition: width 0.5s;
 }
 
-[data-lf-package~="streamhub-hot-collections#0.1.0-alpha"] .hub-metric-list .hub-metric-label {
+[data-lf-package~="streamhub-hot-collections#0.1.0"] .hub-metric-list .hub-metric-label {
   overflow: hidden;
   padding-bottom: 0.67em;
   text-overflow: ellipsis;

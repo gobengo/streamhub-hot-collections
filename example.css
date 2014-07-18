@@ -1,0 +1,103 @@
+.hub-metric-list{
+    width: 400px;
+    padding: 2em;
+    float: left;
+}
+
+
+.hub-metric-list {
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.hub-metric-list .hub-metric-rank {
+    background-color: rgb(35, 35, 35);
+    vertical-align: middle;
+}
+.hub-metric-list .hub-metric {
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(43, 43, 43);
+}
+
+.hub-metric-list .hub-metric:hover {
+    border: 1px solid rgb(19, 127, 229);
+}
+
+.hub-metric-list .hub-metric:hover .hub-metric-rank {
+    background-color: rgb(19, 127, 229);
+}
+.hub-metric-list .hub-metric-bar-container {
+    border-top: 1px solid rgb(43, 43, 43);
+}
+.hub-metric-list .hub-metric-label {
+    padding: 1em;
+}
+.hub-metric-list .hub-metric-bar-container {
+    height: 0.8em;
+}
+
+
+
+.hub-metric-list, .hub-metric-list * {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.hub-metric-list {
+    margin: 0 auto;
+    counter-reset: hub-metric-list;
+}
+
+.hub-metric-list .hub-metric {
+    display: table;
+    margin: 1.5em 0 1.5em 0; 
+    overflow: hidden;
+    table-layout: fixed;
+    width: 100%;
+}
+.hub-metric-list .hub-metric-rank {
+    display: table-cell;
+    font-weight: bold;
+    text-align: center;
+    width: 4em;
+}
+
+.hub-metric-list .hub-metric-rank-value:before {
+    counter-increment: hub-metric-list;
+    content: counter(hub-metric-list);
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.hub-metric-container {
+    display: table-row;
+}
+
+.hub-metric-list .hub-metric-details {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.hub-metric-list .hub-metric:first-child {
+    margin-top: 0;
+}
+.hub-metric-list .hub-metric:last-child {
+    margin-bottom: 0;
+}
+
+.hub-metric-list .hub-metric-bar {
+    background-color: rgb(19, 127, 229);
+    /**
+    This is > 100% to account for issue where, because heights are based
+    on ems, its easy for the height to be XX.182512 pixels, and webkit
+    doesn't round. So this pushes it past, and we clip with overflow on
+    an ancestor
+    */ 
+    height: 105%;
+    transition: width 0.5s;
+}
+
+.hub-metric-list .hub-metric-label {
+    overflow: hidden;
+    padding-bottom: 0.67em;
+    text-overflow: ellipsis;
+}
