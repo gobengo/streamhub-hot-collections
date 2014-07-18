@@ -4,46 +4,10 @@
     float: left;
 }
 
-
-.hub-metric-list {
-    color: white;
-    font-family: sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-.hub-metric-list .hub-metric-rank {
-    background-color: rgb(35, 35, 35);
-    vertical-align: middle;
-}
-.hub-metric-list .hub-metric {
-    background-color: rgb(20, 20, 20);
-    border: 1px solid rgb(43, 43, 43);
-}
-
-.hub-metric-list .hub-metric:hover {
-    border: 1px solid rgb(19, 127, 229);
-}
-
-.hub-metric-list .hub-metric:hover .hub-metric-rank {
-    background-color: rgb(19, 127, 229);
-}
-.hub-metric-list .hub-metric-bar-container {
-    border-top: 1px solid rgb(43, 43, 43);
-}
-.hub-metric-list .hub-metric-label {
-    padding: 1em;
-}
-.hub-metric-list .hub-metric-bar-container {
-    height: 0.8em;
-}
-
-
-
 .hub-metric-list, .hub-metric-list * {
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 .hub-metric-list {
-    margin: 0 auto;
     counter-reset: hub-metric-list;
 }
 
@@ -65,8 +29,12 @@
     counter-increment: hub-metric-list;
     content: counter(hub-metric-list);
     font-size: 2em;
-    line-height: 1em;
 }
+
+.hub-metric-list .hub-metric-bar-container {
+    height: 0.8em;
+}
+
 
 .hub-metric-container {
     display: table-row;
