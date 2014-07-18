@@ -1,12 +1,22 @@
 define([
     'streamhub-metrics/views/metric-list-view',
     'streamhub-hot-collections/streams/hot-collections',
-    'streamhub-hot-collections/streams/collection-to-heat-metric'
-], function (MetricListView, HotCollections, CollectionToHeatMetric) {
+    'streamhub-hot-collections/streams/collection-to-heat-metric',
+    'streamhub-hot-collections/package-attribute',
+    'css!streamhub-hot-collections/styles/style'
+], function (MetricListView, HotCollections, CollectionToHeatMetric, PackageAttribute, Css) {
 
     var HotCollectionsApp = function (opts) {
-        this._stream = new HotCollections(opts);
-        this._view = opts.view || new MetricListView(opts);
+        opts = opts || {}
+        opts.el = opts.el || document.createElement('div');
+
+        PackageAttribute.decorate(opts.el);
+        
+        var viewTag = opts.el.appendChild(document.createElement('div'));
+        viewOpts = Object.create(opts, { el : { value :viewTag }});
+
+        this._stream = new HotCollections(viewOpts);
+        this._view = opts.view || new MetricListView(viewOpts);
     };
 
     HotCollectionsApp.prototype.start = function () {

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>streamhub-trending example</h1>
+    <div id="view1"></div>
+<!-- Scripts -->
+<script src="../../dist/streamhub-hot-collections.min.js"></script>
+
+<script>
+    var HotCollectionsApp = Livefyre['streamhub-hot-collections'];
+
+    new HotCollectionsApp({
+        network: 'thedailybeast.fyre.co',
+        el: document.getElementById('view1')
+    }).start();
+
+</script>
+</body>
+</html>

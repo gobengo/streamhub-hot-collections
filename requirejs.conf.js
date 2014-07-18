@@ -9,6 +9,7 @@ require.config({
     'jasmine-html': 'lib/jasmine/lib/jasmine-core/jasmine-html',
     'jasmine-jquery': 'lib/jasmine-jquery/lib/jasmine-jquery',
     'event-emitter': 'lib/event-emitter/src/event-emitter',
+    'livefyre-package-attribute': 'lib/livefyre-package-attribute/src/main',
     inherits: 'lib/inherits/inherits',
     json: 'lib/requirejs-plugins/src/json'
   },
@@ -43,7 +44,22 @@ require.config({
     name: "view",
     location: "lib/view/src",
     main: "view"
+  },{
+    name: "css",
+    location: "lib/require-css",
+    main: "css"
+  },{
+    name: "less",
+    location: "lib/require-less",
+    main: "less"
   }],
+  css: {
+    clearFileEachBuild: 'dist/streamhub-hot-collections.min.css',
+    transformEach: {
+      requirejs: 'lib/livefyre-package-attribute/tools/prefix-css-requirejs',
+      node: 'lib/livefyre-package-attribute/tools/prefix-css-node'
+    }
+  },
   shim: {
     jquery: {
         exports: '$'
@@ -57,6 +73,9 @@ require.config({
     },
     'jasmine-jquery': {
         deps: ['jquery', 'jasmine']
+    },
+    rework: {
+      exports: 'rework'
     }
   }
 });
