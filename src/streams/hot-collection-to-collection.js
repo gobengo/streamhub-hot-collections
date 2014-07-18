@@ -20,6 +20,7 @@ define(['streamhub-sdk/collection'], function (Collection) {
         });
         collection.heatIndex = hotCollection.heat;
         collection.title = hotCollection.title;
+        collection.url = hotCollection.url;
         return collection;
     };
 

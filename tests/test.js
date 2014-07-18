@@ -1,8 +1,8 @@
 require([
+    'jasmine',
     'jasmine-html',
-    'jasmine-jquery',
     'jquery'],
-function (jasmine, jasmineJQuery, $) {
+function (jasmine, jasmineHtml, $) {
     // Test!
     var jasmineEnv = jasmine.getEnv();
     jasmineEnv.updateInterval = 1000;
@@ -15,7 +15,20 @@ function (jasmine, jasmineJQuery, $) {
         return htmlReporter.specFilter(spec);
     };
 
+    // Copy jasmine globals
+    ['spyOn', 'waitsFor', 'waits', 'runs', 'expect'].forEach(function (key) {
+        window[key] = function () {
+            var spec = jasmine.getEnv().currentSpec;
+            return spec[key].apply(spec, arguments);
+        };
+    });
+    ['beforeEach', 'afterEach', 'describe', 'it'].forEach(function (key) {
+        window[key] = jasmineEnv[key].bind(jasmineEnv);
+    });
+
     var specs = [];
+
+    specs.push('tests/spec/main');
 
     specs.push('tests/spec/metrics/collection-heat-metric');
 

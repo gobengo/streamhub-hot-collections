@@ -28,6 +28,7 @@ inherits) {
         this._network = opts.network;
         this._siteId = opts.siteId;
         this._tag = opts.tag;
+        this._count = opts.count;
 
         this._madeRequest = false;
 
@@ -42,7 +43,8 @@ inherits) {
         var clientOptions = {
             network: this._network,
             siteId: this._siteId,
-            tag: this._tag
+            tag: this._tag,
+            count: this._count
         };
 
         // If we've already requested once, we're done

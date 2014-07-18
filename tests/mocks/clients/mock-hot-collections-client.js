@@ -1,7 +1,7 @@
 define([
     'inherits',
     'streamhub-hot-collections/clients/hot-collections-client',
-    'json!./hot-collections-response.json'],
+    'json!streamhub-hot-collections-tests/mocks/clients/hot-collections-response.json'],
 function (inherits, HotCollectionsClient, mockHotCollectionsResponse) {
 
     var MockHotCollectionsClient = function () {

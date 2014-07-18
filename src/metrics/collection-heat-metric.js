@@ -15,5 +15,9 @@ function (inherits, Metric) {
         return label || this._collection.title;
     };
 
+    HeatMetric.prototype.getCollection = function () {
+        return this._collection;
+    }
+
     return HeatMetric;
 });

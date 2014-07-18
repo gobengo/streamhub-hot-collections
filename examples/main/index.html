@@ -110,8 +110,9 @@
     <h1>streamhub-trending example</h1>
     <div id="view" class="ps4"></div>
     <div id="view1"></div>
+    <div id="view2"></div>
 <!-- Scripts -->
-<script src="../../lib/requirejs/require.js"></script>
+<script src="../../lib/cajon/cajon.js"></script>
 <script src="../../requirejs.conf.js"></script>
 <link rel="stylesheet" href="../../lib/streamhub-sdk/src/css/style.css" />
 <script>
@@ -121,10 +122,17 @@ requirejs.config({
 </script>
 <script>
 require([
+    'streamhub-hot-collections',
     'streamhub-metrics/views/metric-list-view',
     'streamhub-hot-collections/streams/hot-collections',
     'streamhub-hot-collections/streams/collection-to-heat-metric'],
-function (MetricListView, HotCollections, CollectionToHeatMetric) {
+function (HotCollectionsApp, MetricListView, HotCollections, CollectionToHeatMetric) {
+
+    new HotCollectionsApp({
+        network: 'thedailybeast.fyre.co',
+        el: document.getElementById('view1')
+    }).start();
+
     var view = window.app = new MetricListView({
         el: document.getElementById('view'),
         initial: 1,
@@ -148,20 +156,6 @@ function (MetricListView, HotCollections, CollectionToHeatMetric) {
     hotCollections
         .pipe(new CollectionToHeatMetric())
         .pipe(view);
-
-    var view1 = window.app1 = new MetricListView({
-        el: document.getElementById('view1'),
-        initial: 1,
-        showMore: 2
-    });
-
-    var hotCollections1 = window.hc1 = new HotCollections({
-        network: 'techcrunch.fyre.co'
-    });
-
-    hotCollections1
-        .pipe(new CollectionToHeatMetric())
-        .pipe(view1);
 });
 </script>
 </body>
