@@ -10,12 +10,13 @@ require.config({
     'jasmine-jquery': 'lib/jasmine-jquery/lib/jasmine-jquery',
     'event-emitter': 'lib/event-emitter/src/event-emitter',
     'livefyre-package-attribute': 'lib/livefyre-package-attribute/src/main',
+    rework: 'lib/rework/rework',
     inherits: 'lib/inherits/inherits',
     json: 'lib/requirejs-plugins/src/json'
   },
   packages: [{
     name: "streamhub-hot-collections",
-    location: "src/"
+    location: "src"
   },{
     name: "streamhub-hot-collections-tests",
     location: "tests/"
