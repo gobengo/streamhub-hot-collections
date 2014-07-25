@@ -1,9 +1,3 @@
-.hub-metric-list{
-    width: 400px;
-    padding: 2em;
-    float: left;
-}
-
 .hub-metric-list, .hub-metric-list * {
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
