@@ -22,7 +22,7 @@ define([
     HotCollectionsApp.prototype.start = function () {
         this._stream
             .pipe(new CollectionToHeatMetric())
-            .pipe(this._view);
+            .pipe(this._view.more);
     };
 
     return HotCollectionsApp;
